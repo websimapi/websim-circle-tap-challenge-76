@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.vsModeBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             handleFirstInteraction();
-            ui.showVSZenScreen();
             vsManager.startSeeking();
+            ui.showVSZenScreen();
             game.start('easy'); // Start Zen mode logic internally set in vsManager
         });
     }

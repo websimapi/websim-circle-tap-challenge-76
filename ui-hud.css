@@ -110,7 +110,7 @@
     padding: 10px;
     color: var(--text-color);
     cursor: pointer;
-    z-index: 10;
+    z-index: 20;
     display: flex;
     align-items: center;
     justify-content: center;
